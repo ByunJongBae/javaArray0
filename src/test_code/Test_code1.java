@@ -44,7 +44,7 @@ public class Test_code1
 		   choice_0=scc.nextInt();
 		   if(choice_0==1)
 			  {
-				  for (String byun_str : byun)
+				  for (String byun_str : byun) //byun ,1~3에 저장된 배열의 값이 byun_str 에 대입이된다 !
 				  {
 					System.out.println(byun_str);
 				  }
